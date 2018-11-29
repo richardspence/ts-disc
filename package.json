@@ -1,0 +1,21 @@
+{
+  "name": "ts-disc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "error-stack-sm": "node -r source-map-support/register ./dist/ErrorStacks.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "source-map-support": "^0.5.9",
+    "stacktrace-gps": "^3.0.2",
+    "stacktrace-js": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.10",
+    "@types/stacktrace-js": "0.0.32"
+  }
+}
